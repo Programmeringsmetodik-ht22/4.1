@@ -1,6 +1,6 @@
 /******************************************************************************************
-* main.c: Blinkar lysdioder anslutna till pin 8 - 10 i en slinga med en blinkhastighet 
-*         på 100 ms. 
+* 4.1.c: Blinkar lysdioder anslutna till pin 8 - 10 i en slinga med en blinkhastighet 
+*        på 100 millisekunder.
 ******************************************************************************************/
 
 /* Inkluderingsdirektiv: */
@@ -9,7 +9,7 @@
 /******************************************************************************************
 * main: Lagrar pin-nummer för lysdioder i en statisk array. Motsvarande pins på I/0-port B
 *       initieras till utportar. Lysdioderna blinkar sedan kontinuerligt i en slinga med
-*       en blinkhastighet på 100 ms.
+*       en blinkhastighet på 100 millisekunder.
 ******************************************************************************************/
 int main(void)
 {
